@@ -1,0 +1,18 @@
+// Bootstrap 5.3 Premium Override
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$primary: #6366f1;      // Indigo supreme
+$secondary: #64748b;    // Slate pro
+$gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+:root {
+  --bs-gradient-supreme: #{$gradient};
+  --animate-duration: 0.8s;
+}
+
+// Dark Mode Glory
+[data-bs-theme="dark"] {
+  --bs-body-bg: #0f0f23;
+  --bs-primary-rgb: 99, 102, 241;
+}
